@@ -1,0 +1,61 @@
+// set up variables
+$padding: 0;
+$margin: 0;
+$gap: 1rem;
+$list-style: none;
+
+// FLEX DIRECTION - ROW
+.flex-container-one {
+  display: flex;
+  flex-direction: row;
+  padding: $padding;
+  margin: $margin;
+  gap: $gap;
+  list-style: $list-style;
+}
+
+// FLEX DIRECTION - ROW REVERSE
+.flex-container-two {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: $padding;
+  margin: $margin;
+  gap: $gap;
+  list-style: $list-style;
+}
+
+// FLEX DIRECTION - COLUMN
+.flex-container-three {
+  display: flex;
+  flex-direction: column;
+  padding: $padding;
+  margin: $margin;
+  gap: $gap;
+  list-style: $list-style;
+}
+
+// FLEX DIRECTION - COLUMN REVERSE
+.flex-container-four {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: $padding;
+  margin: $margin;
+  gap: $gap;
+  list-style: $list-style;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.05);
+  border-radius: .5rem; // defines the radius of the border edge
+}
+
+
