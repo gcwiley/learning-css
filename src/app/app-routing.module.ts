@@ -14,18 +14,18 @@ import { GridExampleComponent } from './css-grid/grid-example-one/grid.component
 
 // EXAMPLE COMPONENTS
 import { CardsComponent } from './examples/cards/cards.component';
-import { LayoutExampleComponent } from './examples/layout/layout.component';
+import { LayoutOneComponent } from './examples/layouts/layout-one.component';
 import { TemplateExampleComponent } from './examples/template/template.component';
 
 const routes: Routes = [
   { path: 'align-content', component: AlignContentComponent },
-  { path: 'align-item', component: AlignItemsComponent },
+  { path: 'align-items', component: AlignItemsComponent },
   { path: 'flex-direction', component: FlexDirectionComponent },
   { path: 'flex-wrap', component: FlexWrapComponent },
   { path: 'justify-content', component: JustifyContentComponent },
   { path: 'order', component: OrderComponent },
   { path: 'card-example', component: CardsComponent },
-  { path: 'layout-example', component: LayoutExampleComponent },
+  { path: 'layout-example', component: LayoutOneComponent },
   { path: 'css-grid', component: GridExampleComponent },
   { path: 'template', component: TemplateExampleComponent },
 ];

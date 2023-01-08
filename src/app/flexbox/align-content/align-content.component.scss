@@ -1,12 +1,96 @@
+// set up variables
+$padding: 0;
+$margin: 0;
+$gap: 1rem;
+$list-style: none;
+$height: 300px;
+$border: 1px red solid;
 
+// ALIGN CONTENT - FLEX START
+.flex-container-one {
+  display: flex;
+  align-items: flex-start;
+
+  border: $border;
+  height: $height;
+  padding: $padding;
+  margin: $margin;
+  gap: $gap;
+  list-style: $list-style;
+}
+
+// ALIGN CONTENT - FLEX END
+.flex-container-two {
+  display: flex;
+  align-items: flex-end;
+
+  border: $border;
+  height: $height;
+  padding: $padding;
+  margin: $margin;
+  gap: $gap;
+  list-style: $list-style;
+}
+
+// ALIGN CONTENT - CENTER
+.flex-container-three {
+  display: flex;
+  align-items: center;
+
+  border: $border;
+  height: $height;
+  padding: $padding;
+  margin: $margin;
+  gap: $gap;
+  list-style: $list-style;
+}
+
+// ALIGN CONTENT - STRETCH
+.flex-container-four {
+  display: flex;
+  align-items: stretch;
+
+  border: $border;
+  height: $height;
+  padding: $padding;
+  margin: $margin;
+  gap: $gap;
+  list-style: $list-style;
+}
+
+// ALIGN CONTENT - SPACE BETWEEN
+.flex-container-five {
+  display: flex;
+  align-items: space-between;
+
+  border: $border;
+  height: $height;
+  padding: $padding;
+  margin: $margin;
+  gap: $gap;
+  list-style: $list-style;
+}
+
+// ALIGN CONTENT - SPACE AROUND
+.flex-container-six {
+  display: flex;
+  align-items: space-around;
+
+  border: $border;
+  height: $height;
+  padding: $padding;
+  margin: $margin;
+  gap: $gap;
+  list-style: $list-style;
+}
 
 
 .flex-item {
   background: tomato;
   padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
+  // width: 100px;
+  // height: 100px;
+  margin: 5px;
   line-height: 150px;
   color: white;
   font-weight: bold;

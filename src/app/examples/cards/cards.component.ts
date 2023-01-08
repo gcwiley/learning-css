@@ -5,4 +5,12 @@ import { Component } from '@angular/core';
   templateUrl: './cards.component.html',
   styleUrls: ['./cards.component.scss'],
 })
-export class CardsComponent {}
+export class CardsComponent {
+
+  cards = [
+    {
+      title: 'card 1',
+      description: 'This is a card',
+    },
+  ];
+}

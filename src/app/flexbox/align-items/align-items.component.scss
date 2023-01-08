@@ -1,0 +1,174 @@
+// set up variables
+$padding: 0;
+$margin: 0;
+$gap: 1rem;
+$list-style: none;
+$height: 300px;
+
+// ALIGN ITEMS - FLEX START
+.flex-container-one {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+  border: 1px red solid;
+  height: $height;
+  padding: $padding;
+  margin: $margin;
+  gap: $gap;
+  list-style: $list-style;
+}
+
+// ALIGN ITEMS - FLEX END
+.flex-container-two {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+
+  border: 1px red solid;
+  height: $height;
+  padding: $padding;
+  margin: $margin;
+  gap: $gap;
+  list-style: $list-style;
+}
+
+// ALIGN ITEMS - CENTER
+.flex-container-three {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+
+  border: 1px red solid;
+  height: $height;
+  padding: $padding;
+  margin: $margin;
+  gap: $gap;
+  list-style: $list-style;
+}
+
+// ALIGN ITEMS - STRETCH
+.flex-container-four {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+
+  border: 1px red solid;
+  height: $height;
+  padding: $padding;
+  margin: $margin;
+  gap: $gap;
+  list-style: $list-style;
+}
+
+// ALIGN ITEMS - BASELINE
+.flex-container-five {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+
+  border: 1px red solid;
+  height: $height;
+  padding: $padding;
+  margin: $margin;
+  gap: $gap;
+  list-style: $list-style;
+}
+
+
+
+.flex-item-one {
+  background: dodgerblue;
+  padding: 5px;
+  width: 50px;
+  // height: 175px;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.05);
+  border-radius: .5rem;
+}
+
+.flex-item-two {
+  background: dodgerblue;
+  padding: 5px;
+  width: 50px;
+  // height: 50px;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.05);
+  border-radius: .5rem;
+}
+
+.flex-item-three {
+  background: dodgerblue;
+  padding: 5px;
+  width: 50px;
+  // height: 100px;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.05);
+  border-radius: .5rem;
+}
+
+.flex-item-four {
+  background: dodgerblue;
+  padding: 5px;
+  width: 50px;
+  // height: 200px;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.05);
+  border-radius: .5rem;
+}
+
+.flex-item-five {
+  background: dodgerblue;
+  padding: 5px;
+  width: 50px;
+  // height: 125px;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.05);
+  border-radius: .5rem;
+}
+
+.flex-item-six {
+  background: dodgerblue;
+  padding: 5px;
+  width: 50px;
+  // height: 75px;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.05);
+  border-radius: .5rem;
+}
+
